@@ -1,0 +1,49 @@
+src/__pycache__
+
+# Python-specific ignores
+__pycache__/           # Compiled Python bytecode
+*.pyc                  # Individual .pyc files
+*.pyo                  # Optimized bytecode files
+*.pyd                  # Windows-specific compiled files
+.pytest_cache/         # Pytest cache directory
+*.egg-info/            # Egg metadata from setuptools
+dist/                  # Distribution/build output
+build/                 # Build directory
+*.egg                  # Egg files
+*.whl                  # Wheel distribution files
+
+# Virtual environments
+venv/                  # Common virtual environment folder
+.env/                  # Alternative virtual env folder
+env/                   # Another common virtual env folder
+.venv/                 # Another common virtual env folder
+
+# IDE and editor files
+.vscode/               # Visual Studio Code settings
+.idea/                 # PyCharm/IntelliJ IDEA settings
+*.sublime-workspace    # Sublime Text workspace files
+*.sublime-project      # Sublime Text project files
+
+# System files
+.DS_Store              # macOS system files
+Thumbs.db              # Windows system files
+
+# Logs and temporary files
+*.log                  # Log files
+*.bak                  # Backup files
+*.swp                  # Vim swap files
+*.tmp                  # Temporary files
+
+# Coverage and testing
+.coverage              # Coverage.py files
+coverage.xml           # Coverage report
+htmlcov/               # HTML coverage reports
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/    # Jupyter Notebook checkpoints
+
+# Environment variables and secrets
+.env                   # Environment variable files
+*.env.local            # Local environment files
+*.env.development      # Development environment files
+*.env.production       # Production environment files

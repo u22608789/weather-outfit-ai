@@ -1,0 +1,46 @@
+[
+  {
+    "id": "item1",
+    "userId": "user1",
+    "layer": "base_top",
+    "type": "TShirt",
+    "colorHue": 90,
+    "warmthFactor": 3,
+    "waterproof": false,
+    "style": "Casual",
+    "material": "Cotton"
+  },
+  {
+    "id": "item2",
+    "userId": "user1",
+    "layer": "mid_top",
+    "type": "Hoodie",
+    "colorHue": 30,
+    "warmthFactor": 6,
+    "waterproof": false,
+    "style": "Casual",
+    "material": "Fleece"
+  },
+  {
+    "id": "item3",
+    "userId": "user1",
+    "layer": "outerwear",
+    "type": "Raincoat",
+    "colorHue": 200,
+    "warmthFactor": 7,
+    "waterproof": true,
+    "style": "Sporty",
+    "material": "Polyester"
+  },
+  {
+    "id": "item4",
+    "userId": "user1",
+    "layer": "footwear",
+    "type": "Boots",
+    "colorHue": 20,
+    "warmthFactor": 5,
+    "waterproof": true,
+    "style": "Casual",
+    "material": "Leather"
+  }
+]

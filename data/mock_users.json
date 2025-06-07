@@ -1,0 +1,12 @@
+[
+  {
+    "id": "user1",
+    "name": "Kyle",
+    "temperatureSensitivity": 4,
+    "style": "Casual",
+    "preferredColours": [
+      { "min": 80, "max": 140 },
+      { "min": 355, "max": 10 }
+    ]
+  }
+]
