@@ -3,6 +3,7 @@
 
 from src.data_loader import load_users, load_clothing_items
 from src.outfit_generator import generate_outfits
+from src.feature_engineering import extract_features
 
 if __name__ == '__main__':
     users = load_users()
@@ -21,4 +22,6 @@ if __name__ == '__main__':
             print("Outfit:")
             for item in outfit['details']:
                 print(f" - {item['type']} ({item['layer']}, {item['warmthFactor']}/10)")
+            features = extract_features(outfit, user, weather)
+            print("Features:", features)
             print()
