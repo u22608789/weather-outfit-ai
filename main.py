@@ -1,0 +1,1 @@
+# runs pipeline: generate → rank → show
